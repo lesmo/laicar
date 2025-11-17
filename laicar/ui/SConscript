@@ -1,0 +1,11 @@
+# Laicar-specific UI overrides
+laicar_qt_util = [
+  "qt/util.cc",
+]
+
+laicar_qt_src = [
+  "qt/onroad/alerts.cc",
+]
+
+Export('laicar_qt_util', 'laicar_qt_src')
+
